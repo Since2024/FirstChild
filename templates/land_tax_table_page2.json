@@ -1,0 +1,64 @@
+{
+      "image_filename": "land_tax_form_table_page2.jpg",
+      "form_type": "भूमिकर तालिका (पृष्ठ २)",
+      "paper_size_mm": {"width": 210, "height": 297},
+      "pixel_to_mm": 0.259,
+      "image_dimensions_px": {"width": 810, "height": 1147},
+      "fields": [
+        {
+          "field_name": "तालिका हेडर",
+          "field_type": "table_header",
+          "pixel_bbox": {"x": 35, "y": 60, "width": 740, "height": 165},
+          "mm_bbox": {"x": 9.1, "y": 15.5, "width": 191.7, "height": 42.7},
+          "columns": [
+            {"name": "सम्पत्ति कर स्थानको विवरण", "x": 35, "width": 125},
+            {"name": "वडा नं/किसिम/टोल", "x": 160, "width": 95},
+            {"name": "घर वा पसल/टोरा फिट", "x": 255, "width": 110},
+            {"name": "शौचालय/व्यक्ति घर", "x": 365, "width": 70},
+            {"name": "दर निर्धारण गरियको विवरण", "x": 435, "width": 95},
+            {"name": "कर रकम", "x": 530, "width": 55},
+            {"name": "जग्गा कर रकम", "x": 585, "width": 65},
+            {"name": "वार्षिक करसहको वारकम व्रत/मात्रा", "x": 650, "width": 125}
+          ],
+          "confidence": 0.95
+        },
+        {
+          "field_name": "रकम पंक्तिहरू",
+          "field_type": "table_rows", 
+          "pixel_bbox": {"x": 35, "y": 225, "width": 740, "height": 245},
+          "mm_bbox": {"x": 9.1, "y": 58.3, "width": 191.7, "height": 63.5},
+          "row_height": 35,
+          "num_rows": 7,
+          "note": "Contains रु. amount cells",
+          "confidence": 0.9
+        },
+        {
+          "field_name": "सम्पत्ति र भूमि कर सम्बन्धी विवरण",
+          "field_type": "section_header",
+          "pixel_bbox": {"x": 270, "y": 540, "width": 270, "height": 30},
+          "mm_bbox": {"x": 70.0, "y": 139.9, "width": 70.0, "height": 7.8},
+          "confidence": 0.95
+        },
+        {
+          "field_name": "सम्पत्ति कर रकम",
+          "field_type": "text_line",
+          "pixel_bbox": {"x": 45, "y": 590, "width": 150, "height": 25},
+          "mm_bbox": {"x": 11.7, "y": 152.8, "width": 38.9, "height": 6.5},
+          "confidence": 0.95
+        },
+        {
+          "field_name": "भूमि कर रकम",
+          "field_type": "text_line",
+          "pixel_bbox": {"x": 45, "y": 630, "width": 150, "height": 25},
+          "mm_bbox": {"x": 11.7, "y": 163.2, "width": 38.9, "height": 6.5},
+          "confidence": 0.95
+        },
+        {
+          "field_name": "वार्षिक कर रकमको विवरण",
+          "field_type": "summary_table",
+          "pixel_bbox": {"x": 35, "y": 680, "width": 740, "height": 185},
+          "mm_bbox": {"x": 9.1, "y": 176.1, "width": 191.7, "height": 47.9},
+          "confidence": 0.9
+        }
+      ]
+    }

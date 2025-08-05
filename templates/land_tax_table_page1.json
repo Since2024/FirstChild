@@ -1,0 +1,36 @@
+{
+      "image_filename": "land_tax_form_table_page1.jpg",
+      "form_type": "भूमिकर तालिका (पृष्ठ १)",
+      "paper_size_mm": {"width": 210, "height": 297},
+      "pixel_to_mm": 0.259,
+      "image_dimensions_px": {"width": 810, "height": 1147},
+      "fields": [
+        {
+          "field_name": "तालिका हेडर",
+          "field_type": "table_header",
+          "pixel_bbox": {"x": 58, "y": 75, "width": 694, "height": 140},
+          "mm_bbox": {"x": 15.0, "y": 19.4, "width": 179.7, "height": 36.3},
+          "columns": [
+            {"name": "वडा नं", "x": 58, "width": 42},
+            {"name": "मौजाको किसिम", "x": 100, "width": 85},
+            {"name": "शीत नं/वडा", "x": 185, "width": 70},
+            {"name": "कित्ता नं", "x": 255, "width": 50},
+            {"name": "क्षेत्रफल", "x": 305, "width": 52},
+            {"name": "दर", "x": 357, "width": 80},
+            {"name": "जम्मको रुपैया मात्रा", "x": 437, "width": 95},
+            {"name": "वार्षिक माग शुल्क/रुपैया", "x": 532, "width": 110},
+            {"name": "कैफियत", "x": 642, "width": 110}
+          ],
+          "confidence": 0.95
+        },
+        {
+          "field_name": "डाटा पंक्तिहरू",
+          "field_type": "table_rows",
+          "pixel_bbox": {"x": 58, "y": 215, "width": 694, "height": 560},
+          "mm_bbox": {"x": 15.0, "y": 55.7, "width": 179.7, "height": 145.0},
+          "row_height": 40,
+          "num_rows": 14,
+          "confidence": 0.9
+        }
+      ]
+    }

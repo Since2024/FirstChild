@@ -1,0 +1,8 @@
+| Package         | Why it's needed                                                   | Install Command             |
+| --------------- | ----------------------------------------------------------------- | --------------------------- |
+| `opencv-python` | For image loading, cropping, drawing (used in `ocr` and `filler`) | `pip install opencv-python` |
+| `pytesseract`   | To run OCR on form fields (in `ocr/extractor.py`)                 | `pip install pytesseract`   |
+| `numpy`         | Image processing, array operations                                | `pip install numpy`         |
+| `Pillow`        | For image format conversions (used in `printer/exporter.py`)      | `pip install Pillow`        |
+| `reportlab`     | For PDF generation (used in `printer/exporter.py`)                | `pip install reportlab`     |
+1

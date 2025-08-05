@@ -1,0 +1,81 @@
+{
+      "image_filename": "land_tax_form_back.jpg",
+      "form_type": "सम्पत्ति/भूमि कर फारम (विवरण पृष्ठ)",
+      "paper_size_mm": {"width": 210, "height": 297},
+      "pixel_to_mm": 0.259,
+      "image_dimensions_px": {"width": 810, "height": 1147},
+      "fields": [
+        {
+          "field_name": "विवरण पेश गर्नै व्यक्तिको विवरण",
+          "field_type": "section_header",
+          "pixel_bbox": {"x": 30, "y": 40, "width": 280, "height": 30},
+          "mm_bbox": {"x": 7.8, "y": 10.4, "width": 72.5, "height": 7.8},
+          "confidence": 0.95
+        },
+        {
+          "field_name": "नाम थर",
+          "field_type": "text_line",
+          "pixel_bbox": {"x": 30, "y": 90, "width": 100, "height": 25},
+          "mm_bbox": {"x": 7.8, "y": 23.3, "width": 25.9, "height": 6.5},
+          "confidence": 0.95
+        },
+        {
+          "field_name": "ठेगाना",
+          "field_type": "text_line",
+          "pixel_bbox": {"x": 30, "y": 130, "width": 100, "height": 25},
+          "mm_bbox": {"x": 7.8, "y": 33.7, "width": 25.9, "height": 6.5},
+          "confidence": 0.95
+        },
+        {
+          "field_name": "जग्गा/सम्पत्तिसँगको नाता",
+          "field_type": "text_line",
+          "pixel_bbox": {"x": 30, "y": 170, "width": 200, "height": 25},
+          "mm_bbox": {"x": 7.8, "y": 44.0, "width": 51.8, "height": 6.5},
+          "confidence": 0.95
+        },
+        {
+          "field_name": "मोबाइल नं",
+          "field_type": "text_line",
+          "pixel_bbox": {"x": 30, "y": 210, "width": 100, "height": 25},
+          "mm_bbox": {"x": 7.8, "y": 54.4, "width": 25.9, "height": 6.5},
+          "confidence": 0.95
+        },
+        {
+          "field_name": "मिति",
+          "field_type": "text_line",
+          "pixel_bbox": {"x": 30, "y": 250, "width": 50, "height": 25},
+          "mm_bbox": {"x": 7.8, "y": 64.8, "width": 13.0, "height": 6.5},
+          "confidence": 0.95
+        },
+        {
+          "field_name": "दस्तखत",
+          "field_type": "signature_line",
+          "pixel_bbox": {"x": 30, "y": 290, "width": 100, "height": 25},
+          "mm_bbox": {"x": 7.8, "y": 75.1, "width": 25.9, "height": 6.5},
+          "confidence": 0.95
+        },
+        {
+          "field_name": "यस विवरण साथ संलग्न कागजातहरु",
+          "field_type": "checkbox_section",
+          "pixel_bbox": {"x": 380, "y": 340, "width": 380, "height": 200},
+          "mm_bbox": {"x": 98.4, "y": 88.1, "width": 98.4, "height": 51.8},
+          "checkboxes": [
+            {"label": "जग्गाधनी प्रमाणपुर्जाको प्रतिलिपि", "x": 380, "y": 370},
+            {"label": "कर बुझाएको रसिदको प्रतिलिपि", "x": 380, "y": 410},
+            {"label": "नागरिकताको प्रमाणपत्रको प्रतिलिपि", "x": 380, "y": 450},
+            {"label": "नक्सा पास प्रमाणपत्रको प्रतिलिपि", "x": 380, "y": 490}
+          ],
+          "confidence": 0.9
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_forms": 2,
+    "total_pages": 6,
+    "total_fields_detected": 67,
+    "paper_format": "A4",
+    "calibration_method": "edge_detection_with_standard_a4_assumption",
+    "avg_confidence": 0.92
+  }
+}
